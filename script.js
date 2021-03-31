@@ -1,7 +1,7 @@
 let diameter = 0
 const pi = 3.14
 let circumference = 0
-area = 0
+let area = 0
 
 document.getElementById('calculate').addEventListener('click', formula)
 
