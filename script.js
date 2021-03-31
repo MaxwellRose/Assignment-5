@@ -1,6 +1,7 @@
 let diameter = 0
 const pi = 3.14
 let circumference = 0
+area = 0
 
 document.getElementById('calculate').addEventListener('click', formula)
 
@@ -9,7 +10,7 @@ function formula () {
 
   diameter = parseInt(diameter)
 
-  area = pi * (diameter / 2) * (diameter / 2) 
+  area = pi * (diameter / 2) * (diameter / 2)
 
   alert(area)
 }
@@ -21,9 +22,7 @@ function formula1 () {
 
   diameter = parseInt(diameter)
 
-  circumference = 2 * pi * (diameter / 2) 
+  circumference = 2 * pi * (diameter / 2)
 
   alert(circumference)
 }
-
-
